@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="20dp"
+     android:gravity="center"
+    >
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_width="160.0dp"
+        android:layout_height="160.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/imageView1"
+        android:contentDescription="@string/app_name"
+        />
+    <Button
+        android:text="@string/btnAgregarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnagregar" />
+    <Button
+        android:text="@string/btnVenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnventa" />
+    <Button
+        android:text="@string/btnSalir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btSalir" />
+</LinearLayout>
